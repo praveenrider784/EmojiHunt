@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.heading{
+  color:green;
+  font-family:'cursive'
+  }
+  .searchbox{
+    width:15vw;
+    height:4vh;
+    font-size:medium;
+    text-align:center;
+    color:green;
+    background-color: black;
+     border-radius: 8px;
+     margin:5px;
+     font-family: cursive;
+  }
+.card{
+  margin:4px;
+  
+}
+.card-body{
+  background-color: black;
+  color:green;
+  font-family: cursive;
+  text-align:center;
+  display: flex;
+  align-items: center;
+  
+}
